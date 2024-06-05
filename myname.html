@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Enter Name:
+    <input id="text" onchange="name1()">
+   <p id="demo"></p>
+   Enter age:
+   <input id="number" onchange="name1()">
+   <p id="samp"></p>
+   <p id="tip"></p>
+    <script>
+        function name1(){
+            let x=document.getElementById("text").value;
+            document.getElementById("demo").innerHTML=x;
+            let y=document.getElementById("number").value;
+            document.getElementById("samp").innerHTML=y;
+            document.getElementById('tip').innerHTML=typeof x;
+        }
+        
+       
+        
+    </script>
+</body>
+</html>

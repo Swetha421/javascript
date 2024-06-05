@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Arithmetic Operator</h1>
+    <p id="ari"></p>
+    <p id="sub"></p>
+    <p id="mul"></p>
+    <p id="div"></p>
+    <p id="mod"></p>
+    <p id="equ"></p>
+    <p id="e"></p>
+    <p id="equa"></p>
+    <p id="inc"></p>
+
+    <script>
+        let a=5;
+        let b=4;
+        a+=b;
+        document.getElementById('ari').innerHTML="Result is:"+ a
+        let c=6;
+        let d=3;
+        c-=d;
+        document.getElementById('sub').innerHTML="Subtraction is:"+ c
+        let e=8;
+        let f=4;
+        e*=f
+        document.getElementById('mul').innerHTML="multiplication is:"+e
+        let g=9;
+        let h=3;
+        g/=h
+        document.getElementById('div').innerHTML="division is:"+g
+        let i=5;
+        let j=2;
+        i%=j
+        document.getElementById('mod').innerHTML="modulus is:"+i
+
+let x=9;
+let y=5;
+let z=(x==y)  
+document.getElementById('equ').innerHTML="result is "+z
+
+let l=5;
+let k=5;
+let m=(l==k)
+document.getElementById('e').innerHTML="result is"+m
+
+let p=6;
+let q=6;
+let r=(p===q)
+document.getElementById('equa').innerHTML="result is"+r
+
+let s=8;
+b=++s;
+c=s++;
+document.getElementById('inc').innerHTML="preincre:"+b+ "<br>postincre:"+c +"<br>value of s"+s
+
+let u=5,t=5
+document.write(`before preincrement values is u=${u} &nbsp t=${t}`)
+r=++u
+w=t++
+document.write("<br>preicrement operation&nbsp",r)
+document.write("<br>postincrement opration &nbsp",w)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+    </script>
+</body>
+</html>

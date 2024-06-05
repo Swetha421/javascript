@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a=[1,4,7,3];
+        document.write("The array elements are ",a);
+        document.write("<br>The type of array is ",typeof a);
+        document.write("<br>This is an array:",Array.isArray(a));
+        document.write("<br>the length of array is :",a.length);
+        document.write("<br>the element in 2nd position: ",a[2]);
+        document.write("<br>",a[4]=5);
+        document.write("<br>The array elements are ",a);
+        a.push("8");
+        document.write("<br>The array elements are ",a);
+        let v=a.pop();
+        document.write("<br>new array is ",a);
+        let d=a.pop();
+        document.write("<br>new array is ",a);
+        delete(a[1]);
+        document.write("<br>new array is ",a);
+        document.write("<br>new array is ",a[1]);
+        const b=a.slice(2);
+        const b1=a.slice(0,2);
+
+
+        document.write("<br>new array is ",b);
+        document.write("<br>new array is ",b1);
+        document.write("<br>index of 3: ",a.indexOf(3));
+        document.write("<br>position of 3: ",a.indexOf(3)+1);
+
+
+        document.write("<br>sorted array is:",a.sort());
+        document.write("<br>reverse of array is:",a.reverse());
+        document.write("<br>whethwr 3 is in the array:",a.includes(3));
+        let k=a.toString();
+        document.write("<br>new array is",k)
+        document.write("<br>first character is:",k.charAt(1));
+        
+
+       
+ 
+        
+    </script>
+</body>
+</html>
